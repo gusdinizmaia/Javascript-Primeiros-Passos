@@ -32,11 +32,4 @@ alert(`${quantidade} unidades de ${produto} está saindo por ${totalTrans}`)
 
 let permissao=prompt("Gostaria de inserir algum produto?(1-sim / 2-não)")
 
-while(permissao=1){
-let produto=prompt("Digite o nome do produto")
-let preçoDoProduto= parseFloat(prompt("Digite o preço do produto"))
-let quantidade= parseFloat(prompt("Digite quantas unidades você pegou desse produto"))
-let total=preçoDoProduto*quantidade
-let totalTrans=total.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
-alert(`${quantidade} unidades de ${produto} está saindo por ${totalTrans}`)
-}
+
